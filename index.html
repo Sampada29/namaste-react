@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Hello Top of Root</h1>
+
+    <div id="root">
+      <h1>Sampada is here</h1>
+      <!-- this will get rendered and will get replaced immdiately -->
+      <!-- browser reads the HTML, so it will print it. Later it will load react into our app, then it will load App.js and start executing it.So then it will render the content of that file -->
+    </div>
+
+    <h1>Hello Bottom of Root</h1>
+
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+
+    <script src="./App.js"></script>
+    <!-- this tag should be at the end because we are using react isnide it -->
+  </body>
+</html>
