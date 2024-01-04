@@ -18,4 +18,4 @@ const parent = React.createElement(
 const heading = React.createElement("h1", {}, "Hello World by React");
 console.log(heading); // heading is an object
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(parent); //everythinh will get rendered under this root
+root.render(parent); //everything will get rendered under this root
