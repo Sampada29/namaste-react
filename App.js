@@ -7,6 +7,9 @@
 </div>; */
 }
 
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 const parent = React.createElement(
   "div",
   { id: "parent" },
@@ -15,7 +18,7 @@ const parent = React.createElement(
     React.createElement("h2", {}, "I am an H2 Tag"),
   ])
 );
-const heading = React.createElement("h1", {}, "Hello World by React");
+const heading = React.createElement("h1", {}, "Hello World by React 🚀");
 console.log(heading); // heading is an object
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(parent); //everything will get rendered under this root
